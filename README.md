@@ -41,3 +41,9 @@ The model learns patterns in the dataset to predict which genre a user is likely
 ```bash
 git clone https://github.com/your-username/music-recommender.git
 cd music-recommender
+
+### 2. Install all dependencies from requirements.txt
+```bash
+pip install -r requirements.txt
+
+
