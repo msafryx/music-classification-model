@@ -63,9 +63,10 @@ jupyter notebook music-classification.ipynb
 ```bash
 dot -Tpng music-recommender.dot -o music-tree.png
 ```
+
 ---
 
-Sample Decision Tree
+## Sample Decision Tree
 
 <img width="767" height="455" alt="image" src="https://github.com/user-attachments/assets/f74edcca-a79a-4963-a0e3-fdfc0f4c8c52" />
 
