@@ -41,9 +41,32 @@ The model learns patterns in the dataset to predict which genre a user is likely
 ```bash
 git clone https://github.com/your-username/music-recommender.git
 cd music-recommender
+```
 
 ### 2. Install all dependencies from requirements.txt
 ```bash
 pip install -r requirements.txt
+```
+
+### (Optional) Install dependencies individually
+```bash
+
+pip install pandas scikit-learn matplotlib graphviz
+```
+
+### 3. Launch the Jupyter Notebook
+```bash
+jupyter notebook music-classification.ipynb
+```
+
+#### 4. Visualize the decision tree (requires Graphviz installed)
+```bash
+dot -Tpng music-recommender.dot -o music-tree.png
+```
+---
+
+Sample Decision Tree
+
+<img width="767" height="455" alt="image" src="https://github.com/user-attachments/assets/f74edcca-a79a-4963-a0e3-fdfc0f4c8c52" />
 
 
